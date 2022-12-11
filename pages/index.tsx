@@ -11,7 +11,7 @@ import ExpressJS_SVG from '@assets/icons/express-js.svg'
 
 export default function Home() {
 
-  return <div className="min-h-screen flex flex-col justify-start items-center p-12 bg-[url('/assets/bg_images/bg-home.png')] " >
+  return <div className="min-h-screen flex flex-col justify-start items-center p-12 bg-[url('/assets/bg_images/bg-home.png')] bg-no-repeat bg-cover" >
 
     <div className="flex flex-col mt-auto mb-auto text-center">
 
